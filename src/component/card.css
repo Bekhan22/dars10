@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 10px 4px #00000040;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card h2{
+    padding: 0;
+}
